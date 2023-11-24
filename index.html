@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Caompatible" content="ie=edge">
+  <title>My Website</title>
+  <!--<title>Materilize | Carrousel y Media</title>-->
+  <!--fonts-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet"><!-esto es para poner el carrusel, lo mismo de boostrap-->
+  <!--materialize.Css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--estilo.css-->
+  <link rel="stylesheet" href="style.css">
+
+
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>F</span>ranco <span>H</span>omeniuk</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Inicio</a></li>
+            <li><a href="#services" data-after="Service">Proyectos</a></li>
+            <li><a href="#projects" data-after="Projects">Habilidades</a></li>
+            <li><a href="#about" data-after="About">Sobre Mi</a></li>
+            <li><a href="#contact" data-after="Contact">contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hola, <span></span></h1>
+        <h1>Mi Nombre es <span></span></h1>
+        <h1>Franco <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!--carousel-->
+  <section id="services">
+    <h1 class="section-title">Pro<span>y</span>ectos</h1>
+    <!--<div class="proyectos container">-->
+      <div class="container mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./IMG/2.png" alt="Primera imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseño PCB</h5>
+                <p>Regleta de sensores Infrarrojos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/3.jpeg" alt="Segunda imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseño De Circuitos</h5>
+                <p>Secuencia Leds.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/16.jpeg" alt="Tercera imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Proyectos de Robótica</h5>
+                <p>Robot de Sumo Autónomo Pro.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/4.png" alt="Cuarta imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Programación de Arduino</h5>
+                <p>Instrucciones en C++.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/5.jpeg" alt="Quinta imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseño PCB</h5>
+                <p>Diseño esquemático de circuito.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/8.jpeg" alt="Sexta imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseño 3D</h5>
+                <p>Chasis de robot Minisumo en 3D.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/9.jpeg" alt="Septima imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseño 3D Profesional</h5>
+                <p>Proyectos de robótica. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/10.1.jpeg" alt="Octaba imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Construcción de Baterías</h5>
+                <p>Construyo y reparo baterías de li-ion, li-Po, lifePO4 y plomo ácido. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/10.png" alt="Novena imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Paquete de Baterías</h5>
+                <p>Baterías de li-ion para instalación solar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/13.jpeg" alt="Decima imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bicicleta Eléctrica</h5>
+                <p>!Construí una Bicicleta eléctrica desde cero!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/14.jpeg" alt="Decima Primera imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>World Developers Maker</h5>
+                <p>¡Tengo un emprendimiento referido a robótica! </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./IMG/17.jpeg" alt="Decima Primera imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Proyectos de Robótica</h5>
+                <p>Robot futbolista pro. ¡Con este equipo obtuve el Segundo lugar en la liga nacional 2023! </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+    </div>
+</section>
+
+  <!--end caroucel-->
+
+
+
+  <!-- Projects Section --><!--aca van mis proyectos -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Mis <span>Habilidades</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Programación</h1>
+            <h2>Lenguajes</h2>
+            <p>Lógica de programación y manejo de lenguajes C#, Javascript, Css y C++.</p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/codigo.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>herramientas de taller</h1>
+            <h2>Taller</h2>
+            <p>Manejo de gran variedad de herramientas, amoladora, sierras, taladros, soldadora de puntos, torno etc.</p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/taller.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Reparaciones generales</h1>
+            <h2>Reparaciones</h2>
+            <p>Reparo una gran variedad de dispositivos electrónicos, lavadoras, frigoríficos, herramientas, impresoras, ordenadores, monopatines, bicicletas eléctricas, etc. Más que nada me gusta ver que hay dentro de los aparatos y entender su funcionamiento.</p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/reparaciones.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Circuitos Eléctricos</h1>
+            <h2>Desarrollo en Circuitos Eléctricos </h2>
+            <p>Amplio conocimiento en desarrollo de tableros de circuitos eléctricos con programas como kikad y proteus.</p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/electronica.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Mecánica</h1>
+            <h2>Mecánica basica</h2>
+            <p>Tengo conocimientos sobre mecánica en general, mecanismos y sistemas.
+              Con ese conocimiento, pude construí mi propio Motor de vapor hecho con materiales reciclados como tubos de cobre para refrigeración usados como cilindros y transportes para el vapor, perchas de ropa que sirvieron de vielas y un cabezal de amoladora usado como rotor, todo esto hecho con herramientas comunes.</p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/motor.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Ciencias de la tierra y el espacio</h1>
+            <h2>Luna</h2>
+            <p>Soy divulgador científico y conozco sobre manejo de telescopios, por ello tome esta foto. </p>
+          </div>
+          <div class="project-img">
+            <img src="./IMG/luna2.0.jpeg" alt="img">
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="IMG/fotomia.jpeg" alt="img"><!--aca va mi foto xd-->
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Sobre <span>mi</span></h1>
+        <h2>desarrollador de software</h2>
+        <p>
+          Me dedico más a lo que es robótica, y sus tres ramas principales, la mecánica, la electrónica y la programación.
+          En mi tiempo libre realizo el diseño y montaje de mis propios proyectos, algunos de los cuales se encuentran en la sección de proyectos.
+          Por otro lado, también continuo mi formación capacitándome a través de cursos de diferentes temas (programación, inglés, mecánica, electricidad, electricidad del automotor
+          , divulgación científica, entre otros).
+          </p>
+        <a href="#" class="cta">Descargar resumen</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contacto <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Teléfono</h1>
+            <h2>+54 376 4755822</h2>
+            <h2>+54 376 4755822</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Gmail</h1>
+            <h2>franco95homeniuk@gmail.com</h2>
+            <h2>francohomeniuk95@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Dirección</h1>
+            <h2>Posadas, Misiones, Argentina</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
